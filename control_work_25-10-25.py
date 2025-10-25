@@ -1,8 +1,6 @@
 import math
 import random
-
 # Блох Роман ИП-71
-# Уровень C(сложный)
 #################################### Задача 1
 
 while True:
@@ -28,8 +26,8 @@ def set_pix(xy, sim=main_char):
     try:
         if xy[0] >= 0 and xy[1] >= 0:
             matrix[round(xy[1])][round(xy[0])] = sim
-    except:
-        pass  # скорее всего пиксель вышел за экран
+    except IndexError:
+        pass
 
 
 def draw_line(point1,point2):
