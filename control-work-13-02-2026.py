@@ -1,3 +1,6 @@
+# Уровень C
+# Автор: Блох Роман
+
 import random
 import psutil
 import time
