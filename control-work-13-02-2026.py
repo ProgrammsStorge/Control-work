@@ -1,5 +1,6 @@
 # Уровень C
 # Автор: Блох Роман
+# Группа ИИ-71
 
 import random
 import psutil
